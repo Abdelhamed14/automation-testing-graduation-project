@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM Automation Suite"
+       parallel="tests"
+       thread-count="3">
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.orangehrm.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="PIM Tests">
+        <classes>
+            <class name="com.orangehrm.tests.PIMTest"/>
+        </classes>
+    </test>
+
+    <test name="Admin Tests">
+        <classes>
+            <class name="com.orangehrm.tests.AdminTest"/>
+        </classes>
+    </test>
+
+    <test name="Footer Tests">
+        <classes>
+            <class name="com.orangehrm.tests.FooterTest"/>
+        </classes>
+    </test>
+
+    <test name="Sidebar Tests">
+        <classes>
+            <class name="com.orangehrm.tests.SidebarTest"/>
+        </classes>
+    </test>
+
+</suite>

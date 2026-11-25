@@ -1,0 +1,36 @@
+
+{
+  "login": {
+    "valid": {
+      "username": "Admin",
+      "password": "admin123"
+    },
+    "invalid": {
+      "username": "InvalidUser",
+      "password": "WrongPassword"
+    },
+    "empty": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "employeeSearch": {
+    "existing": {
+      "searchName": "Amelia",
+      "expectedFirstName": "Amelia",
+      "expectedLastName": "Brown"
+    },
+    "nonExisting": {
+      "searchName": "ZZZ_No_Employee_98765"
+    }
+  },
+  "addEmployee": {
+    "missingFirstName": {
+      "lastName": "Brown"
+    },
+    "valid": {
+      "firstNamePrefix": "AutoTC08",
+      "lastName": "ProjectCheck"
+    }
+  }
+}
